@@ -26,7 +26,8 @@ body {
     .container {
         width: 90%;
         padding-left: 20px;
-        padding-right: 20px
+        padding-right: 20px;
+        margin:auto;
     }
 }
 
@@ -310,7 +311,7 @@ section.services .container .grid-services .nested-grid-services .grid-services-
 
     .title h2 {
         color: #ebeced;
-        font-size: 80px;
+        font-size: 65px;
         text-align: center;
         font-weight: 800;
         letter-spacing: -3px
@@ -350,6 +351,14 @@ section.portfolio .container .portfolio-grid .portfolio-grid-items p {
     line-height: 1.6;
 }
 
+@media (max-width:720px) {
+    section.portfolio .container .portfolio-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 /*End Portfolio */
 
 /* About Section */
